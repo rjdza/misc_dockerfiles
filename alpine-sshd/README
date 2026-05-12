@@ -1,5 +1,0 @@
-BUILD:
-docker build -t alpine-ssh-server .
-
-RUN:
-docker run -d -p 2222:22 --name myalpine --hostname teleport-ssh-test-01 alpine-ssh-server
